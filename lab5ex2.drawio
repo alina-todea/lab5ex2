@@ -1,0 +1,96 @@
+<mxfile host="app.diagrams.net" modified="2023-07-24T19:33:27.692Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.5.1 Safari/605.1.15" etag="m5bjniqzXdaQwG6KeWTE" version="21.6.5" type="device">
+  <diagram name="Page-1" id="0zwtPVewtGv6lqPJByIS">
+    <mxGraphModel dx="700" dy="515" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FvozvUZphkfdbVCPt0bu-1" value="TREN" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="20" width="270" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-2" value="- nume string&lt;br&gt;- listaVagoane List&amp;lt;Vagon&amp;gt;&lt;br&gt;- Locomotiva Locomotiva&lt;br&gt;- Vagon vagon&lt;br&gt;- VagonDeMarfa vagonDeMarfa&lt;br&gt;- VagonDePersoane vagonDePersoane&lt;br&gt;-VagonClasaIntai vagonClasaIntai" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-1">
+          <mxGeometry y="26" width="270" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-1">
+          <mxGeometry y="130" width="270" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-4" value="+ AdaugaVagon (vagon Vagon)&lt;br&gt;+ PleacaDinGara()&lt;br&gt;+ OpresteInGara ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-1">
+          <mxGeometry y="138" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-5" value="LOCOMOTIVA" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="310" width="194" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-6" value="- putere int&lt;br&gt;- Tren tren" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-5">
+          <mxGeometry y="26" width="194" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-5">
+          <mxGeometry y="80" width="194" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-8" value="+ PornesteLocomotiva &amp;nbsp;()&lt;br&gt;+ OpresteLocomotiva &amp;nbsp;()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-5">
+          <mxGeometry y="88" width="194" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-9" value="VAGON&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="230" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-10" value="- masa int&lt;br&gt;- anul string&lt;br&gt;- Tren tren" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-9">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-9">
+          <mxGeometry y="70" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-12" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-9">
+          <mxGeometry y="78" width="160" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-13" value="VAGON DE MARFA" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="360" width="140" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-14" value="- marfa TipMarfa&lt;br&gt;- capacitatea" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-13">
+          <mxGeometry y="26" width="140" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-13">
+          <mxGeometry y="80" width="140" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-16" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-13">
+          <mxGeometry y="88" width="140" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-17" value="VAGON DE PERSOANE" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="360" width="160" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-18" value="- numar locuri" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-17">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-17">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-20" value="+ InchideUsile ()&lt;br&gt;+ DeschideUsile ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-17">
+          <mxGeometry y="60" width="160" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-22" value="VAGON CLASA 1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="360" width="120" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-24" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-22">
+          <mxGeometry y="26" width="120" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-25" value="+ PornesteAC ()&lt;br&gt;+ OpresteAC ()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="FvozvUZphkfdbVCPt0bu-22">
+          <mxGeometry y="34" width="120" height="96" as="geometry" />
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-32" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="360" y="111" as="sourcePoint" />
+            <mxPoint x="560" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FvozvUZphkfdbVCPt0bu-35" value="1" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;exitX=0.458;exitY=1.022;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="203.66000000000008" y="218.00000000000006" as="sourcePoint" />
+            <mxPoint x="182" y="308" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="204" y="278" />
+              <mxPoint x="182" y="278" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
